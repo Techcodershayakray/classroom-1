@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Google Classroom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+  <header>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#">Assignments</a>
+      <a href="#">Grades</a>
+      <a href="calender.html">Calender</a>
+      <a href="#">Logout</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <img src="images/logo.png" class="hello">
+      <h1>Welcome to Student Room</h1>
+      <p>This is a website where students can login, submit assignments, and view their grades.</p>
+    </section>
+    <section>
+      <h2>Login</h2>
+      <form action="/login" method="post">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
+        <input type="submit" value="Login">
+      </form>
+    </section>
+    <section>
+      <h2>Submit Assignment</h2>
+      <form action="/submit" method="post">
+        <input type="text" name="assignment" placeholder="Assignment Name">
+        <input type="file" name="file">
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    <section>
+      <h2>Grades</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Assignment</th>
+            <th>Grade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>C programming</td>
+            <td>
+              <form action="/submit" method="post">
+                <input type="text" name="assignment" placeholder="grades">
+                <input type="submit" value="Submit">
+              </form>
+            </td>
+          </tr>
+          <tr>
+            <td>DBMS</td>
+            <td>
+              <form action="/submit" method="post">
+                <input type="text" name="assignment" placeholder="grades">
+                <input type="submit" value="Submit">
+              </form>
+            </td>
+          </tr>
+          <tr>
+            <td>COMPUTER NETWORKS</td>
+            <td>
+              <form action="/submit" method="post">
+                <input type="text" name="assignment" placeholder="grades">
+                <input type="submit" value="Submit">
+              </form>
+            </td>
+          </tr>
+          <tr>
+            <td>AI</td>
+            <td>
+              <form action="/submit" method="post">
+                <input type="text" name="assignment" placeholder="grades">
+                <input type="submit" value="Submit">
+              </form>
+            </td>
+          </tr>
+          <tr>
+            <td>SOFTWARE ENGINEERING</td>
+            <td>
+              <form action="/submit" method="post">
+                <input type="text" name="assignment" placeholder="grades">
+                <input type="submit" value="Submit">
+              </form>
+            </td>
+          </tr>
+          <tr>
+            <td>MACHINE LEARNING</td>
+            <td>
+              <form action="/submit" method="post">
+                <input type="text" name="assignment" placeholder="grades">
+                <input type="submit" value="Submit">
+              </form>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2>Enter Classroom</h2>
+      <div class="container">
+        <h1 style="text-align:center;">Student Room</h1>
+        <a href="new.html">
+          <button class="btn btn-primary btn-lg">Click</button>
+        </a>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    <p>Copyright 2023 Student Room</p>
+  </footer>
+
+</body>
+
+</html>
